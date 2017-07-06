@@ -1,0 +1,5 @@
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

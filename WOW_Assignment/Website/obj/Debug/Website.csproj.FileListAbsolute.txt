@@ -51,3 +51,7 @@ C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website\bin\Microsoft.
 C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website\bin\Microsoft.AI.Web.xml
 C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website\bin\BusinessLayer.dll
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website\bin\DataAccessLayer.dll
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website\bin\BusinessLayer.pdb
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website\bin\DataAccessLayer.pdb
