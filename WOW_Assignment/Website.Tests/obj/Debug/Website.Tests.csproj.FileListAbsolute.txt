@@ -41,3 +41,7 @@ C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website.Tests\bin\Debu
 C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website.Tests\bin\Debug\EntityFramework.dll
 C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website.Tests\bin\Debug\DataAccessLayer.pdb
 C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website.Tests\bin\Debug\EntityFramework.xml
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website.Tests\bin\Debug\BusinessLayer.dll
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website.Tests\bin\Debug\PagedList.dll
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website.Tests\bin\Debug\BusinessLayer.pdb
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website.Tests\bin\Debug\PagedList.xml

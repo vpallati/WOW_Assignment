@@ -7,4 +7,3 @@ C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\DataAccessLayer\bin\De
 C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
-C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache

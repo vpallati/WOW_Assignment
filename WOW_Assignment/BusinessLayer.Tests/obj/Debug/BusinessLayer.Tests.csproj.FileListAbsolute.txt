@@ -6,3 +6,7 @@ C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\BusinessLayer.Tests\bi
 C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\BusinessLayer.Tests\obj\Debug\BusinessLayer.Tests.csprojResolveAssemblyReference.cache
 C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\BusinessLayer.Tests\obj\Debug\BusinessLayer.Tests.dll
 C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\BusinessLayer.Tests\obj\Debug\BusinessLayer.Tests.pdb
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\BusinessLayer.Tests\bin\Debug\DataAccessLayer.dll
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\BusinessLayer.Tests\bin\Debug\EntityFramework.dll
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\BusinessLayer.Tests\bin\Debug\DataAccessLayer.pdb
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\BusinessLayer.Tests\bin\Debug\EntityFramework.xml

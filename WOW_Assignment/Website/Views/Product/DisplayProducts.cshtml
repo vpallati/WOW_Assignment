@@ -5,48 +5,45 @@
 @{
     ViewBag.Title = "DisplayProducts";
 }
+@section styles{
+    @Styles.Render("~/Styles/Product/css")
+}
+
 
 <h2>DisplayProducts</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Create New", "UploadNewProduct")
 </p>
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.First().ProductID)
+            Image
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.First().Title)
+            Name
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.First().Description)
+            SKU
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.First().ImageURL)
-        </th>
-        <th></th>
     </tr>
 
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.ProductID)
+            <img src="@Url.Content(item.ImageURL)" alt="Image" />
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Title)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Description)
+            @Html.DisplayFor(modelItem => item.ProductID)
         </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.ImageURL)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-        </td>
+        @*<td>
+        @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+        @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+        @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+    </td>*@
     </tr>
 }
 
