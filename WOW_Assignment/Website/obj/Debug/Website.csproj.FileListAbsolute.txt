@@ -55,3 +55,7 @@ C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website\bin\BusinessLa
 C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website\bin\DataAccessLayer.dll
 C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website\bin\BusinessLayer.pdb
 C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website\bin\DataAccessLayer.pdb
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website\bin\EntityFramework.dll
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website\bin\EntityFramework.xml
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website\bin\EntityFramework.SqlServer.dll
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website\bin\EntityFramework.SqlServer.xml

@@ -1,0 +1,8 @@
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\BusinessLayer.Tests\bin\Debug\BusinessLayer.Tests.dll
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\BusinessLayer.Tests\bin\Debug\BusinessLayer.Tests.pdb
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\BusinessLayer.Tests\bin\Debug\BusinessLayer.dll
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\BusinessLayer.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\BusinessLayer.Tests\bin\Debug\BusinessLayer.pdb
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\BusinessLayer.Tests\obj\Debug\BusinessLayer.Tests.csprojResolveAssemblyReference.cache
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\BusinessLayer.Tests\obj\Debug\BusinessLayer.Tests.dll
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\BusinessLayer.Tests\obj\Debug\BusinessLayer.Tests.pdb

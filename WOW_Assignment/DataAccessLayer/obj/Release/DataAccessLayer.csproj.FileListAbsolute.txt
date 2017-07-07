@@ -1,0 +1,10 @@
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\DataAccessLayer\bin\Release\DataAccessLayer.dll.config
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\DataAccessLayer\bin\Release\DataAccessLayer.dll
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\DataAccessLayer\bin\Release\DataAccessLayer.pdb
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\DataAccessLayer\bin\Release\EntityFramework.dll
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\DataAccessLayer\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\DataAccessLayer\bin\Release\EntityFramework.xml
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\DataAccessLayer\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\DataAccessLayer\obj\Release\DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\DataAccessLayer\obj\Release\DataAccessLayer.dll
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\DataAccessLayer\obj\Release\DataAccessLayer.pdb

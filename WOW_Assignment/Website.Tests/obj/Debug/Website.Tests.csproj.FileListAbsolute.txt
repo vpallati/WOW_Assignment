@@ -36,3 +36,8 @@ C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website.Tests\bin\Debu
 C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website.Tests\obj\Debug\Website.Tests.csprojResolveAssemblyReference.cache
 C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website.Tests\obj\Debug\Website.Tests.dll
 C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website.Tests\obj\Debug\Website.Tests.pdb
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website.Tests\bin\Debug\DataAccessLayer.dll
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website.Tests\bin\Debug\EntityFramework.dll
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website.Tests\bin\Debug\DataAccessLayer.pdb
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website.Tests\bin\Debug\EntityFramework.xml

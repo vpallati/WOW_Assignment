@@ -1,0 +1,4 @@
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\BusinessLayer\bin\Release\BusinessLayer.dll
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\BusinessLayer\bin\Release\BusinessLayer.pdb
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\BusinessLayer\obj\Release\BusinessLayer.dll
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\BusinessLayer\obj\Release\BusinessLayer.pdb
