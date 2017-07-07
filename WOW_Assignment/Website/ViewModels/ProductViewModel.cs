@@ -1,6 +1,7 @@
 ﻿using DataAccessLayer.Models;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -9,7 +10,9 @@ namespace Website.ViewModels
     public class ProductViewModel
     {
         public int ProductID { get; set; }
+        [Required]
         public string Title { get; set; }
+        [Required]
         public string Description { get; set; }
         public string ImageURL { get; set; }
 
