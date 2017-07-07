@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer.Tests", "Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{78624B81-BFDE-4A29-B061-0159F3966AC7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0F1F3475-C5C8-4463-A24B-7F33DA26D9D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3ECC3DBB-246E-4A21-9AAB-01E0B9B1783E} = {0F1F3475-C5C8-4463-A24B-7F33DA26D9D8}
+		{2322D27D-EC28-4EBA-B946-4ABB5CBC165C} = {0F1F3475-C5C8-4463-A24B-7F33DA26D9D8}
+		{3A7A29BB-0CBC-4040-BF7B-A99F4D57A9C4} = {0F1F3475-C5C8-4463-A24B-7F33DA26D9D8}
 	EndGlobalSection
 EndGlobal

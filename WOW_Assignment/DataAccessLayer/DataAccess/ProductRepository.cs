@@ -124,6 +124,18 @@ namespace DataAccessLayer.DataAccess
             return product;
         }
 
-        
+        /// <summary>
+        /// Get Product Count .
+        /// </summary>
+        public int ProductCount()
+        {
+            int count = 0;
+            using (var context = new ProductEntity())
+            {
+                count = context.Products.Count();
+            }
+
+            return count;
+        }
     }
 }

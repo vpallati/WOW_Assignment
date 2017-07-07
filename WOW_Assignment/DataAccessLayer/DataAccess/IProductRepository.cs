@@ -44,5 +44,10 @@ namespace DataAccessLayer.DataAccess
         /// <param name="EndIndex"></param>
         /// <returns></returns>
         List<ProductModel> GetProductsInRange(int start, int end);
+
+        /// <summary>
+        /// Get Product Count .
+        /// </summary>
+        int ProductCount();
     }
 }
