@@ -1,4 +1,6 @@
-﻿@model IEnumerable<Website.ViewModels.ProductViewModel>
+﻿@using PagedList;
+@using PagedList.Mvc;
+@model IPagedList<Website.ViewModels.ProductViewModel>
 
 @{
     ViewBag.Title = "DisplayProducts";
@@ -12,16 +14,16 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.ProductID)
+            @Html.DisplayNameFor(model => model.First().ProductID)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Title)
+            @Html.DisplayNameFor(model => model.First().Title)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Description)
+            @Html.DisplayNameFor(model => model.First().Description)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.ImageURL)
+            @Html.DisplayNameFor(model => model.First().ImageURL)
         </th>
         <th></th>
     </tr>
@@ -49,3 +51,5 @@
 }
 
 </table>
+
+@Html.PagedListPager(Model, page => Url.Action("DisplayProducts", new { page}))

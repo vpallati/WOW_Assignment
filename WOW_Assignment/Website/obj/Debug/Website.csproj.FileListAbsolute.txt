@@ -59,3 +59,7 @@ C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website\bin\EntityFram
 C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website\bin\EntityFramework.xml
 C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website\bin\EntityFramework.SqlServer.dll
 C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website\bin\EntityFramework.SqlServer.xml
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website\bin\PagedList.dll
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website\bin\PagedList.Mvc.dll
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website\bin\PagedList.xml
+C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\Website\bin\PagedList.Mvc.xml

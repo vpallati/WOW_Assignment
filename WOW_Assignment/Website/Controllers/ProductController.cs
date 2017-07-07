@@ -5,6 +5,8 @@ using System.Web;
 using System.Web.Mvc;
 using BusinessLayer;
 using Website.ViewModels;
+using PagedList;
+using PagedList.Mvc;
 
 namespace Website.Controllers
 {
@@ -19,10 +21,10 @@ namespace Website.Controllers
         }
 
         [Route("DisplayProducts")]
-        public ActionResult DisplayProducts()
+        public ActionResult DisplayProducts(int? page)
         {
             var model = _productBuisness.GetAllProducts();
-            return View(model.Select(a => ProductViewModel.Convert(a)));
+            return View(model.Select(a => ProductViewModel.Convert(a)).ToPagedList(page ?? 1, 5));
         }
 
         [HttpGet]

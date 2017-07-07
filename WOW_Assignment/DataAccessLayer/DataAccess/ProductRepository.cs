@@ -83,12 +83,6 @@ namespace DataAccessLayer.DataAccess
             List<ProductModel> collection = new List<ProductModel>();
             using (var context = new ProductEntity())
             {
-                context.Products.Add(new Product() {
-                     Description = "",
-                      ImageURL = "",
-                       Title = ""
-                });
-                context.SaveChanges();
                 collection.AddRange((context.Products.ToList().Select(a => ProductModel.Convert(a))));
             }
 
