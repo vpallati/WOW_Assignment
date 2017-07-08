@@ -9,52 +9,51 @@
     @Styles.Render("~/Styles/Product/css")
 }
 
+<div id="displayProducts">
+        <p class="btn btn-primary btn-md">
+            <span class="glyphicon glyphicon-plus"></span> @Html.ActionLink("Create New", "UploadNewProduct")
+        </p>
+        <span class="wow-display-paging">
+            @Html.PagedListPager(Model, page => Url.Action("DisplayProducts", new { page }))
+        </span>
 
-<h2>DisplayProducts</h2>
+    @if (ViewBag.msg != null)
+    {
+        <div class="alert alert-success">
+            <strong>@ViewBag.msg</strong>
+        </div>
+    }
+   
+    <table class="table">
+        <tr>
+            <th class="wow-display-imagerow">
+                Image
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                SKU
+            </th>
+        </tr>
 
-<p>
-    @Html.ActionLink("Create New", "UploadNewProduct")
-</p>
+        @foreach (var item in Model)
+        {
+            <tr onclick="location.href = '@(Url.Action("DisplayProduct", new { id = item.ProductID }))'">
+                <td class="wow-display-imagerow">
+                    <img src="@Url.Content(item.ImageURL)" alt="Image" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductID)
+                </td>
+            </tr>
 
-@if (ViewBag.msg != null)
-{
-    <div class="alert alert-success">
-        <strong>@ViewBag.msg</strong>
-    </div>
-}
+        }
 
-<table class="table">
-    <tr>
-        <th>
-            Image
-        </th>
-        <th>
-            Name
-        </th>
-        <th>
-            SKU
-        </th>
-    </tr>
+    </table>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            <img src="@Url.Content(item.ImageURL)" alt="Image" />
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Title)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.ProductID)
-        </td>
-        @*<td>
-        @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-        @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-        @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-    </td>*@
-    </tr>
-}
-
-</table>
-
-@Html.PagedListPager(Model, page => Url.Action("DisplayProducts", new { page}))
+    @Html.PagedListPager(Model, page => Url.Action("DisplayProducts", new { page }))
+</div>

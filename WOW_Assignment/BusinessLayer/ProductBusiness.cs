@@ -45,14 +45,7 @@ namespace BusinessLayer
         public ProductModel GetProduct(int id)
         {
             ProductModel model = null;
-            if(id < _productRepository.ProductCount())
-            {
-                model = _productRepository.GetProduct(id);
-            }
-            else
-            {
-                throw new IndexOutOfRangeException();
-            }
+            model = _productRepository.GetProduct(id);
             return model;
         }
 

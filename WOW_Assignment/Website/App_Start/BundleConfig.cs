@@ -24,11 +24,19 @@ namespace Website
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/bootstrap.css"));
+
+            bundles.Add(new StyleBundle("~/Styles/main/css").Include(
+                           "~/Styles/main.css"));
 
             bundles.Add(new StyleBundle("~/Styles/Product/css").Include(
                             "~/Styles/Product.css"));
+
+            bundles.Add(new StyleBundle("~/Styles/Details/css").Include(
+                           "~/Styles/Details.css"));
+
+            bundles.Add(new StyleBundle("~/Styles/UploadProduct/css").Include(
+                           "~/Styles/UploadProduct.css"));
 
         }
     }

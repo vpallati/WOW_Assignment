@@ -24,12 +24,21 @@ namespace Website.Controllers
             maxImageSize = 5 * 1024 * 1024;
         }
 
+        [HttpGet]
         [Route("DisplayProducts")]
         public ActionResult DisplayProducts(int? page)
         {
             ViewBag.msg = TempData["success"];
             var model = _productBuisness.GetAllProducts();
             return View(model.Select(a => ProductViewModel.Convert(a)).ToPagedList(page ?? 1, 5));
+        }
+
+        [HttpGet]
+        [Route("DisplayProduct")]
+        public ActionResult DisplayProduct(int id)
+        {
+            var model = _productBuisness.GetProduct(id);
+            return View(ProductViewModel.Convert(model));
         }
 
         [HttpGet]

@@ -1,0 +1,19 @@
+﻿/*#region -- display Product details Page --*/
+#displayProductDetails{margin:10px; padding:10px;}
+#displayProductDetails span {color: #428bca; display: inline-block;}
+#displayProductDetails  a {display: inline-block; text-decoration:underline;}
+#displayProductDetails  a:hover{cursor:pointer;}
+img{ width:300px;}
+#displayProductDetails dt, #displayProductDetails dd {padding:8px;}
+.col-xs-10{ padding:20px;}
+table{ margin:50px 0; padding:20px 0;}
+th { width:30%; border-top: 1px solid #dddddd; border-bottom: 1px solid #dddddd; margin:8px; padding:8px;}
+tr{  margin:8px; padding:8px; }
+td{ margin:8px; padding:8px;}
+@media(max-width: 767px){
+#displayProductDetails{margin:5px; padding:5px;}
+.col-xs-10{ padding:unset; padding-right: unset; padding-left: unset;}   
+img{ width: 270px;}
+}
+
+/*#endregion*/

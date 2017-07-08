@@ -1,0 +1,9 @@
+﻿/*#region -- Upload Products Page --*/
+#uploadNewProduct div span {color: #428bca; display: inline-block;}
+#uploadNewProduct div  a {display: inline-block; text-decoration:underline;}
+img{ width:500px; margin:20px 0;}
+
+@media(max-width: 767px) {
+img{ width:100%;}
+}
+/*#endregion*/

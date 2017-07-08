@@ -1,9 +1,15 @@
 ﻿/*#region -- Display Products Page --*/
-img{
-    width : 70px;
-}
+#displayProducts span {color: white; display: inline-block;}
+#displayProducts  .btn  a {color: white; display: inline-block; text-decoration:underline;}
+#displayProducts a:hover{cursor:pointer;}
+.btn{display: inline-block; }
+.wow-display-paging {display: inline-block; float:right;}
+table { border-left: 1px solid #dddddd; border-right: 1px solid #dddddd;}
+table th:nth-of-type(2){ text-align:center;}
+table th {background:#e9e9e9}
+tr:nth-child(even) {background: #f6f6f6}
+tr:nth-child(odd) {background: #ffffff}
+.wow-display-imagerow{ width:20%; }
+img{ width : 70px;}
 /*#endregion*/
 
-/*#region -- Upload Products Page --*/
-
-/*#endregion*/
