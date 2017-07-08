@@ -1,6 +1,0 @@
-C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\DataAccessLayer.Tests\bin\Debug\DataAccessLayer.Tests.dll
-C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\DataAccessLayer.Tests\bin\Debug\DataAccessLayer.Tests.pdb
-C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\DataAccessLayer.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\DataAccessLayer.Tests\obj\Debug\DataAccessLayer.Tests.csprojResolveAssemblyReference.cache
-C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\DataAccessLayer.Tests\obj\Debug\DataAccessLayer.Tests.dll
-C:\Users\pvish\Source\Repos\WOW_Assignment\WOW_Assignment\DataAccessLayer.Tests\obj\Debug\DataAccessLayer.Tests.pdb
