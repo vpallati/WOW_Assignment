@@ -18,7 +18,7 @@ namespace DataAccessLayer.DataAccess
         public bool AddProduct(ProductModel model)
         {
             outcome = false;
-            using (var context = new WOW_Assignment_ProductDBEntities())
+            using (var context = new WOW_Assignment_ProductDBEntities1())
             {
                 var entity = ProductModel.Convert(model);
                 context.Products.Add(entity);
@@ -35,7 +35,7 @@ namespace DataAccessLayer.DataAccess
         public bool UpdateProduct(ProductModel model)
         {
             outcome = false;
-            using (var context = new WOW_Assignment_ProductDBEntities())
+            using (var context = new WOW_Assignment_ProductDBEntities1())
             {
                 if(model != null)
                 {
@@ -61,7 +61,7 @@ namespace DataAccessLayer.DataAccess
         public bool RemoveProduct(ProductModel model)
         {
             outcome = false;
-            using (var context = new WOW_Assignment_ProductDBEntities())
+            using (var context = new WOW_Assignment_ProductDBEntities1())
             {
                 if (model != null)
                 {
@@ -81,7 +81,7 @@ namespace DataAccessLayer.DataAccess
         public List<ProductModel> GetAllProducts()
         {
             List<ProductModel> collection = new List<ProductModel>();
-            using (var context = new WOW_Assignment_ProductDBEntities())
+            using (var context = new WOW_Assignment_ProductDBEntities1())
             {
                 collection.AddRange((context.Products.ToList().Select(a => ProductModel.Convert(a))));
             }
@@ -96,7 +96,7 @@ namespace DataAccessLayer.DataAccess
         public ProductModel GetProduct(int id)
         {
             ProductModel product = null;
-            using (var context = new WOW_Assignment_ProductDBEntities())
+            using (var context = new WOW_Assignment_ProductDBEntities1())
             {
                 var entity = context.Products.Where(a => a.ProductID == id).ToList().FirstOrDefault();
                 product = ProductModel.Convert(entity);
@@ -111,7 +111,7 @@ namespace DataAccessLayer.DataAccess
         public int ProductCount()
         {
             int count = 0;
-            using (var context = new WOW_Assignment_ProductDBEntities())
+            using (var context = new WOW_Assignment_ProductDBEntities1())
             {
                 count = context.Products.Count();
             }

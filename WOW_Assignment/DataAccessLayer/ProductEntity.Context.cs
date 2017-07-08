@@ -13,10 +13,10 @@ namespace DataAccessLayer
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class WOW_Assignment_ProductDBEntities : DbContext
+    public partial class WOW_Assignment_ProductDBEntities1 : DbContext
     {
-        public WOW_Assignment_ProductDBEntities()
-            : base("name=WOW_Assignment_ProductDBEntities")
+        public WOW_Assignment_ProductDBEntities1()
+            : base("name=WOW_Assignment_ProductDBEntities1")
         {
         }
     
