@@ -11,7 +11,6 @@
         <span class="glyphicon glyphicon-chevron-left"> </span> @Html.ActionLink("Back to List", "DisplayProducts")
     </div>
 
-
     @using (Html.BeginForm(null, null, FormMethod.Post, new { enctype = "multipart/form-data" }))
     {
         @Html.AntiForgeryToken()
@@ -27,7 +26,6 @@
                     @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
                 </div>
             </div>
-
             <div class="form-group">
                 @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
                 <div class="col-md-10">
@@ -35,21 +33,20 @@
                     @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
                 </div>
             </div>
-
             <div class="form-group">
                 @Html.LabelFor(model => model.ImageURL, htmlAttributes: new { @class = "control-label col-md-2" })
                 <div class="col-md-10">
                     @if (ViewBag.Error != null)
-                {
+                    {
                         <div class="alert alert-danger">
                             <strong>@ViewBag.Error</strong>
                         </div>
                     }
                     <input type="file" name="photo" id="photo" onchange="preview(this)" accept="image/*" />
+                    <p>(Max File Size : 5MB, Accepted Image Formats : Jpeg, Jpg, PNG)</p>
                     <img id="ImagePreview" src="~/Images/icon.jpg" />
                 </div>
             </div>
-
             <div class="form-group">
                 <div class="col-md-offset-2 col-md-10">
                     <input type="submit" value="Upload" class="btn btn-info btn-md" />
@@ -57,7 +54,6 @@
             </div>
         </div>
     }
-
 </div>
 
 @section Scripts {
@@ -74,4 +70,5 @@
             }
             reader.readAsDataURL(fileInput.files[0]);
         }
-    } </script>
+    }
+</script>

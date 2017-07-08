@@ -90,22 +90,9 @@ namespace DataAccessLayer.DataAccess
         }
 
         /// <summary>
-        /// Get Products in Range.
+        /// Get Product.
         /// </summary>
-        /// <param name="StartIndex"></param>
-        /// <param name="EndIndex"></param>
-        /// <returns></returns>
-        public List<ProductModel> GetProductsInRange(int start, int end)
-        {
-            List<ProductModel> collection = new List<ProductModel>();
-            using (var context = new WOW_Assignment_ProductDBEntities())
-            {
-                collection.AddRange(context.Products.ToList().Select(a => ProductModel.Convert(a)));
-            }
-
-            return collection;
-        }
-
+        /// <param name="id"></param>
         public ProductModel GetProduct(int id)
         {
             ProductModel product = null;

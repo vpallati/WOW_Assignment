@@ -38,14 +38,6 @@ namespace DataAccessLayer.DataAccess
         List<ProductModel> GetAllProducts();
 
         /// <summary>
-        /// Get Products in Range.
-        /// </summary>
-        /// <param name="StartIndex"></param>
-        /// <param name="EndIndex"></param>
-        /// <returns></returns>
-        List<ProductModel> GetProductsInRange(int start, int end);
-
-        /// <summary>
         /// Get Product Count .
         /// </summary>
         int ProductCount();

@@ -13,16 +13,9 @@ namespace Website.Controllers
             return View();
         }
 
-        public ActionResult About()
-        {
-            ViewBag.Message = "To be implemented";
-
-            return View();
-        }
-
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Vishnu Vardhan Kumar Pallati";
 
             return View();
         }

@@ -50,31 +50,6 @@ namespace BusinessLayer
         }
 
         /// <summary>
-        /// Get Products in Range.
-        /// </summary>
-        /// <param name="StartIndex"></param>
-        /// <param name="EndIndex"></param>
-        /// <returns></returns>
-        public List<ProductModel> GetProductsInRange(int start, int end)
-        {
-            List<ProductModel> collection = null;
-            var count = _productRepository.ProductCount();
-
-            if((start > 0) && (end > 0) && (end >= start))
-            {
-                if (end >= count)
-                    end = count - 1;
-                collection = _productRepository.GetProductsInRange(start, end);
-            }
-            else
-            {
-                throw new IndexOutOfRangeException();
-            }
-
-            return collection;            
-        }
-
-        /// <summary>
         /// Remove Product.
         /// </summary>
         /// <param name="model"></param>

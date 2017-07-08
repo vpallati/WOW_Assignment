@@ -13,7 +13,7 @@ namespace DataAccessLayer.Models
         public string Description { get; set; }
         public string ImageURL { get; set; }
 
-        public static ProductModel Convert(Product entity)
+        internal static ProductModel Convert(Product entity)
         {
             return new ProductModel()
             {
@@ -24,7 +24,7 @@ namespace DataAccessLayer.Models
             };
         }
 
-        public static Product Convert(ProductModel model)
+        internal static Product Convert(ProductModel model)
         {
             return new Product()
             {
