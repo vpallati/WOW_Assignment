@@ -1,6 +1,6 @@
 ﻿/*#region -- Display Products Page --*/
 #displayProducts span {color: white; display: inline-block;}
-#displayProducts  .btn  a {color: white; display: inline-block; text-decoration:underline;}
+#displayProducts  .btn  a {color: white; display: inline-block; }
 #displayProducts a:hover{cursor:pointer;}
 .btn{display: inline-block; }
 .wow-display-paging {display: inline-block; float:right;}
