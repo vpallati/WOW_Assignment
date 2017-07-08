@@ -39,7 +39,7 @@
 
         @foreach (var item in Model)
         {
-            <tr onclick="location.href = '@(Url.Action("DisplayProduct", new { id = item.ProductID }))'">
+            <tr class="wow-display-tablerow" onclick="location.href = '@(Url.Action("DisplayProduct", new { id = item.ProductID }))'">
                 <td class="wow-display-imagerow">
                     <img src="@Url.Content(item.ImageURL)" alt="Image" />
                 </td>
